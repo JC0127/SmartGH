@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weixin_sp"
+    android:id="@+id/wx_item">
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:id="@+id/layout_01"
+        android:background="@drawable/weixin_layout_press"
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv_wx_01"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:id="@+id/tv_wx_01"
+            android:layout_alignParentBottom="true"
+            android:textColor="#FFF"
+            android:text="text"
+            android:background="#a0000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/layout_02"
+        android:background="@drawable/weixin_layout_press"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_wx_02"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv_wx_02"
+            android:layout_marginRight="10dp"
+            android:layout_width="80dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F3F7F6"/>
+    <LinearLayout
+        android:id="@+id/layout_03"
+        android:background="@drawable/weixin_layout_press"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_wx_03"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv_wx_03"
+            android:layout_marginRight="10dp"
+            android:layout_width="80dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F3F7F6"/>
+    <LinearLayout
+        android:id="@+id/layout_04"
+        android:background="@drawable/weixin_layout_press"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_wx_04"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv_wx_04"
+            android:layout_marginRight="10dp"
+            android:layout_width="80dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F3F7F6"/>
+    <LinearLayout
+        android:id="@+id/layout_05"
+        android:background="@drawable/weixin_layout_press"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_wx_05"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv_wx_05"
+            android:layout_marginRight="10dp"
+            android:layout_width="80dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee"/>
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <RadioGroup
+            android:id="@+id/rb_group"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/rb_news"
+                android:drawableTop="@drawable/btn_news_checked"
+                android:text="今日头条"
+                style="@style/topnew_btn_style" />
+            <RadioButton
+                android:id="@+id/rb_wexin"
+                android:drawableTop="@drawable/btn_weixin_checked"
+                android:text="微信趣闻"
+                style="@style/topnew_btn_style" />
+            <RadioButton
+                android:id="@+id/rb_robot"
+                android:drawableTop="@drawable/btn_robot_checked"
+                android:text="大棚管理"
+                style="@style/topnew_btn_style" />
+            <RadioButton
+                android:id="@+id/rb_move"
+                android:drawableTop="@drawable/btn_move_checked"
+                android:text="关心天气"
+                style="@style/topnew_btn_style" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_lv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:dividerHeight="1dp"
+            android:divider="#F3F7F6"
+            android:id="@+id/lv_top_news_lv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

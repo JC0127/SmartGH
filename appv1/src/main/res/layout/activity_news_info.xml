@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_news_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sdyhlt.duoyuan.apptestmvp.view.NewsInfo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_web"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#0080FF">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/btn_back_checked" />
+    </android.support.v7.widget.Toolbar>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+</LinearLayout>
